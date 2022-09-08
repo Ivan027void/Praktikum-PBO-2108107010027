@@ -8,8 +8,6 @@ public class tugasno3Prak2 {
   
     System.out.print("Input tinggi segitiga: ");
     tinggi_segitiga = input.nextInt();
-     
-    System.out.println();
     
     for(i = 0; i < tinggi_segitiga; i++) {
       for(j = 1; j <= tinggi_segitiga-i; j++) {
@@ -17,6 +15,5 @@ public class tugasno3Prak2 {
       }
       System.out.println();
     }
-     
   }
 }
