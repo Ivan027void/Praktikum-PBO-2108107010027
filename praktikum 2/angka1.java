@@ -7,6 +7,7 @@ public class angka1{
         
         System.out.print("masukkan nilai num1: ");
         num1 = input.nextInt();
+        
         System.out.print("masukkan nilai num2: ");
         num2 = input.nextInt();
         
