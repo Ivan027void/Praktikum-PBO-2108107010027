@@ -9,7 +9,6 @@ public class tugasno2Prak2
         System.out.print("masukkan nilai: ");
         marks=input.nextInt();
 
-
         if(marks<41){
             System.out.println("E Grade");
         }
