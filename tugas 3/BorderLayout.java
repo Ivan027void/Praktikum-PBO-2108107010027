@@ -1,6 +1,5 @@
 // Java program to illustrate the BorderLayout
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 // class extends JFrame
@@ -15,23 +14,23 @@ class BoderLayout extends JFrame {
 		// set the layout
 		pa.setLayout(new BorderLayout());
 
-		// add a new JButton with name "wel" and it is
+		// add a new JButton with name "one" and it is
 		// lie top of the container
-		pa.add(new JButton("one"), BorderLayout.NORTH);
+		pa.add(new JButton("One"), BorderLayout.NORTH);
 
-		// add a new JButton with name "come" and it is
+		// add a new JButton with name "five" and it is
 		// lie button of the container
-		pa.add(new JButton("five"), BorderLayout.SOUTH);
+		pa.add(new JButton("Five"), BorderLayout.SOUTH);
 
-		// add a new JButton with name "Layout" and it is
+		// add a new JButton with name "four" and it is
 		// lie left of the container
 		pa.add(new JButton("Four"), BorderLayout.EAST);
 
-		// add a new JButton with name "Border" and it is
+		// add a new JButton with name "two" and it is
 		// lie right of the container
 		pa.add(new JButton("Two"), BorderLayout.WEST);
 
-		// add a new JButton with name "hello everybody" and it is
+		// add a new JButton with name "three" and it is
 		// lie center of the container
 		pa.add(new JButton("Three"), BorderLayout.CENTER);
 
