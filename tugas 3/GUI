@@ -1,0 +1,7 @@
+Tugas 3 GUI
+
+Buatlah class LayoutTester yang memiliki 5 komponen JButton didalamnya. Class LayoutTester dapat
+mengubah layout dari kelima JButton. Jika method setFlowLayout() yang dipanggil, maka tampilan
+kelima-lima JButton menggunakan layout FlowLayout. Jika method setBorderLayout() yang dipanggil,
+maka tampilan kelima-lima JButton menggunakan layout BorderLayout. Jika method setGridLayout()
+yang dipanggil, maka tampilan kelima-lima JButton menggunakan layout GridLayout. Contoh:
